@@ -1,0 +1,27 @@
+﻿<Window x:Class="_09_Practical_work.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_09_Practical_work"
+        mc:Ignorable="d"
+        Title="Копирование файлов" Height="250" Width="800">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" Height="50" HorizontalAlignment="Stretch">
+            <Button Click="CopyFile" Width="100" Height="35" BorderBrush="Black" Margin="15,0">Копіювати</Button>
+        </ToolBar>
+
+        <StackPanel Margin="10">
+            <Label Margin="10,0" >Введіть шлях до файлу, який хочете скопіювати:</Label>
+            <TextBox Name="NameFile" Width="490" Margin ="15,0" HorizontalAlignment="Left"/>
+
+            <Label Margin="10,0" >Введіть шлях до директорії, в який хочете скопіювати файл:</Label>
+            <TextBox Name="NameDirectory" Width="490" Margin ="15,0" HorizontalAlignment="Left"/>
+
+            <Label Margin="10,0" >Введіть кількість разів, яку хочете скопіювати файл:</Label>
+            <TextBox Name="Number" Width="100" Margin ="15,0" HorizontalAlignment="Left"/>
+
+            <ProgressBar Name="CopyProgress" Height="20" Margin="0,10,0,0" IsIndeterminate="True"></ProgressBar>
+        </StackPanel>
+    </DockPanel>
+</Window>
