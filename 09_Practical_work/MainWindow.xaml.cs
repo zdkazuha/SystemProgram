@@ -76,7 +76,7 @@ namespace _09_Practical_work
 
                 for (int i = 1; i <= CopyCount; i++)
                 {
-                    filePath = Path.Combine(DirectoryName, $"{Path.GetFileNameWithoutExtension(FileName)}_copy{i}{Path.GetExtension(FileName)}");
+                    filePath = Path.Combine(DirectoryName, $"{Path.GetFileName(FileName)}_copy{i}{Path.GetExtension(FileName)}");
 
                     try
                     {
