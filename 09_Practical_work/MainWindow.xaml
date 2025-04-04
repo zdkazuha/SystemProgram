@@ -8,7 +8,7 @@
         Title="Копирование файлов" Height="250" Width="800">
     <DockPanel>
         <ToolBar DockPanel.Dock="Top" Height="50" HorizontalAlignment="Stretch">
-            <Button Click="CopyFile" Width="100" Height="35" BorderBrush="Black" Margin="15,0">Копіювати</Button>
+            <Button Click="CopyFile" KeyDown="OnKeyDownHandler2" Width="100" Height="35" BorderBrush="Black" Margin="15,0">Копіювати</Button>
         </ToolBar>
 
         <StackPanel Margin="10">
@@ -19,7 +19,7 @@
             <TextBox Name="NameDirectory" Width="490" Margin ="15,0" HorizontalAlignment="Left"/>
 
             <Label Margin="10,0" >Введіть кількість разів, яку хочете скопіювати файл:</Label>
-            <TextBox Name="Number" Width="100" Margin ="15,0" HorizontalAlignment="Left"/>
+            <TextBox Name="Number" KeyDown="OnKeyDownHandler"  Width="100" Margin ="15,0" HorizontalAlignment="Left"/>
 
             <ProgressBar Name="CopyProgress" Height="20" Margin="0,10,0,0" IsIndeterminate="True"></ProgressBar>
         </StackPanel>

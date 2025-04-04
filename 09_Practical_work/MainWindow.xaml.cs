@@ -23,7 +23,6 @@ namespace _09_Practical_work
         {
             InitializeComponent();
         }
-
         private async void CopyFile(object sender, RoutedEventArgs e)
         {
             try
@@ -38,6 +37,17 @@ namespace _09_Practical_work
             }
         }
 
+        private void OnKeyDownHandler(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                CopyFile(sender, e);
+        }
+
+        private void OnKeyDownHandler2(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                CopyFile(sender, e);
+        }
     }
 
     class CopyFile
@@ -49,35 +59,40 @@ namespace _09_Practical_work
             CopyCount = copyCount;
         }
 
+        private string filePath = string.Empty;
         public string FileName { get; set; }
         public string DirectoryName { get; set; }
         public int CopyCount { get; set; } = 1;
 
         public async Task CopyAsync()
         {
-            if (!File.Exists(FileName))
-                MessageBox.Show("Исходный файл не найден", FileName);
-
-            if (!Directory.Exists(DirectoryName))
-                Directory.CreateDirectory(DirectoryName);
-
-            for (int i = 1; i <= CopyCount; i++)
+            await Task.Run(async () =>
             {
-                string filePath = Path.Combine(DirectoryName, $"{Path.GetFileNameWithoutExtension(FileName)}_copy{i}{Path.GetExtension(FileName)}");
+                if (!File.Exists(FileName))
+                    MessageBox.Show("Исходный файл не найден", FileName);
 
-                try
+                if (!Directory.Exists(DirectoryName))
+                    Directory.CreateDirectory(DirectoryName);
+
+                for (int i = 1; i <= CopyCount; i++)
                 {
-                    using (FileStream sourceStream = new FileStream(FileName, FileMode.Open))
-                    using (FileStream destinationStream = new FileStream(filePath, FileMode.Create))
+                    filePath = Path.Combine(DirectoryName, $"{Path.GetFileNameWithoutExtension(FileName)}_copy{i}{Path.GetExtension(FileName)}");
+
+                    try
                     {
-                        await sourceStream.CopyToAsync(destinationStream);
+                        using (FileStream sourceStream = new FileStream(FileName, FileMode.Open))
+                        using (FileStream destinationStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            Thread.Sleep(3000);
+                            await sourceStream.CopyToAsync(destinationStream);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка при копировании файла {FileName} в {filePath}: {ex.Message}");
                     }
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Ошибка при копировании файла {FileName} в {filePath}: {ex.Message}");
-                }
-            }
+            });
         }
     }
 }
