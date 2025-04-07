@@ -8,8 +8,11 @@ namespace Db_Library
     {
         public Library()
         {
-            this.Database.EnsureDeleted();
-            this.Database.EnsureCreated();
+            if (!this.Database.CanConnect())
+            {
+                this.Database.EnsureCreated();
+            }
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

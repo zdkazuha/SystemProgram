@@ -28,6 +28,7 @@ namespace _06_Homework
         public MainWindow()
         {
             InitializeComponent();
+
             LoadAsync();
             ComboBoxAuthor.SelectionChanged += LoadBooks;
         }
@@ -46,7 +47,6 @@ namespace _06_Homework
             {
                 ListBooks.Items.Clear();
                 var item = (Author)ComboBoxAuthor.SelectedItem;
-
                 var books = await LoadBooksAsync(item.Id);
                 foreach (var book in books)
                     ListBooks.Items.Add(book);
@@ -72,7 +72,7 @@ namespace _06_Homework
 
             return books;
         }
-        private async void BookTitle_TextChanged(object sender, TextChangedEventArgs e)
+        public async void BookTitle_TextChanged(object sender, TextChangedEventArgs e)
         {
             var books = await LoadBooksTitleAsync();
             ListBooks.Items.Clear();
