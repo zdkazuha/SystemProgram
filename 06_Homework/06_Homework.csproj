@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows</TargetFramework>
-    <RootNamespace>_02_TaskManager</RootNamespace>
+    <RootNamespace>_06_Homework</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
@@ -11,6 +11,10 @@
 
   <ItemGroup>
     <PackageReference Include="WakaTime" Version="8.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Db_Library\Db_Library.csproj" />
   </ItemGroup>
 
 </Project>
