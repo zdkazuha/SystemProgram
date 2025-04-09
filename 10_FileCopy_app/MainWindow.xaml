@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_10_FileCopy_app"
         mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance local:ViewModel, IsDesignTimeCreatable=True}"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
@@ -22,7 +23,7 @@
             <Setter Property="VerticalContentAlignment" Value="Center"/>
         </Style>
     </Window.Resources>
-    <DockPanel LastChildFill="False">
+    <DockPanel LastChildFill="True">
         <Grid DockPanel.Dock="Top">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -30,9 +31,9 @@
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                    <RowDefinition Height="Auto"></RowDefinition>
-                </Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
 
             <Label VerticalAlignment="Center" >From:</Label>
             <TextBox Name="srcTextBox" Grid.Column="1" Style="{StaticResource pathTextBox}"></TextBox>
@@ -44,7 +45,25 @@
         </Grid>
 
         <Button Click="CopyFileBtn" DockPanel.Dock="Top">Copy</Button>
-        <ProgressBar Name="progress" DockPanel.Dock="Bottom" Height="30" IsIndeterminate="False"></ProgressBar>
-        <TextBlock DockPanel.Dock="Bottom" HorizontalAlignment="Center" Name="percentage"></TextBlock>
+        <ProgressBar Name="progress" DockPanel.Dock="Bottom" Height="30" IsIndeterminate="{Binding IsWaiting}" ></ProgressBar>
+        <ListBox HorizontalContentAlignment="Stretch" ItemsSource="{Binding Processes}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock FontWeight="Bold" Margin="20,0" Text="{Binding FileName}"></TextBlock>
+                        <TextBlock Grid.Column="1" FontWeight="Bold" Margin="20,0">Speed: <Run Text="{Binding MegaBytesPerSeconds, Mode=OneWay}"></Run>Mb/s</TextBlock>
+                        <ProgressBar
+                            Grid.Column="2" Height="10" Margin="5" Value="{Binding Percentage}"></ProgressBar>
+                        <TextBlock Grid.Column="3" Margin="20,0"><Run Text="{Binding PercentageInt, Mode=OneWay}"></Run>%</TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </DockPanel>
 </Window>
