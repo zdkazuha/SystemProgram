@@ -1,0 +1,236 @@
+Файл: text1.txt
+Шлях: C:\Users\SystemX\Desktop\Test\text1.txt
+Кількість знайдених слів: 12
+
+Файл: text2.txt
+Шлях: C:\Users\SystemX\Desktop\Test\text2.txt
+Кількість знайдених слів: 12
+
+Файл: text3.txt
+Шлях: C:\Users\SystemX\Desktop\Test\text3.txt
+Кількість знайдених слів: 12
+
+Файл: text4.txt
+Шлях: C:\Users\SystemX\Desktop\Test\text4.txt
+Кількість знайдених слів: 12
+
+Файл: text5.txt
+Шлях: C:\Users\SystemX\Desktop\Test\text5.txt
+Кількість знайдених слів: 12
+
+Файл: Новий Text Document – копія (10).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (10).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (11).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (11).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (12).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (12).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (13).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (13).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (14).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (14).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (15).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (15).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (16).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (16).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (17).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (17).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (18).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (18).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (19).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (19).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (2).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (2).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (20).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (20).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (21).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (21).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (22).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (22).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (23).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (23).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (24).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (24).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (25).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (25).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (26).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (26).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (27).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (27).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (28).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (28).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (29).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (29).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (3).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (3).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (30).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (30).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (31).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (31).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (32).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (32).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (33).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (33).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (34).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (34).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (35).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (35).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (36).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (36).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (37).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (37).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (38).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (38).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (39).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (39).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (4).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (4).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (40).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (40).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (41).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (41).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (42).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (42).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (43).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (43).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (44).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (44).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (45).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (45).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (46).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (46).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (47).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (47).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (48).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (48).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (49).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (49).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (5).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (5).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (50).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (50).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (51).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (51).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (52).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (52).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (6).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (6).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (7).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (7).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (8).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (8).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія (9).txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія (9).txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document – копія.txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document – копія.txt
+Кількість знайдених слів: 3410
+
+Файл: Новий Text Document.txt
+Шлях: C:\Users\SystemX\Desktop\Test\Новий Text Document.txt
+Кількість знайдених слів: 3410
+
+Файл: text1.txt
+Шлях: C:\Users\SystemX\Desktop\Test\12\text1.txt
+Кількість знайдених слів: 12
+

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Processes", "01_Processe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_TaskManager", "02_TaskManager\02_TaskManager.csproj", "{E98846AE-EE73-4588-B3E4-649DB47A6B4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_GetArgument", "00_GetArgument\00_GetArgument.csproj", "{F6FBACA5-344F-4A16-A086-67D8918B85D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Practical_work", "00_GetArgument\01_Practical_work.csproj", "{F6FBACA5-344F-4A16-A086-67D8918B85D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Practical_work", "03_Practical_work\03_Practical_work.csproj", "{758CD00A-C673-4CCC-9DA2-4F1F27D45704}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Practical_work", "10_Practical_work\11_Practical_work.csproj", "{96141A80-C0CC-4BD9-9BC0-727DAC23E04B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Homework", "08_Homework\08_Homework.csproj", "{F1DDB0E3-C238-456C-927F-2E616CEB2EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_SystemProgramming_FinalProject", "00_SystemProgramming_FinalProject\00_SystemProgramming_FinalProject.csproj", "{97F84D52-4ECF-4D20-8455-730EA7F16913}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{F1DDB0E3-C238-456C-927F-2E616CEB2EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DDB0E3-C238-456C-927F-2E616CEB2EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DDB0E3-C238-456C-927F-2E616CEB2EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F84D52-4ECF-4D20-8455-730EA7F16913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F84D52-4ECF-4D20-8455-730EA7F16913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F84D52-4ECF-4D20-8455-730EA7F16913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F84D52-4ECF-4D20-8455-730EA7F16913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

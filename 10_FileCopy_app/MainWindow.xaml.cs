@@ -71,7 +71,7 @@ namespace _10_FileCopy_app
             await CopyFileAsync(model.Source, destfileName, info);
             info.Percentage = 100;
             model.Progress = 0;
-            MessageBox.Show("Complate");
+            //MessageBox.Show("Complate");
         }
         private Task CopyFileAsync(string source, string dest, CopyProcessInfo info)
         {
