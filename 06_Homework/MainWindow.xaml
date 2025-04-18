@@ -8,9 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <ComboBox Name="ComboBoxAuthor" Width="784" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" > 
-            
-        </ComboBox>
+        <ComboBox Name="ComboBoxAuthor" Width="784" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"></ComboBox>
 
         <Label Width="200" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,20" >Введіть Назву книги для пошуку ::</Label>
         <TextBox Name="BookTitle"   Width="400" Height="20" Margin="10,50" VerticalAlignment="Top" HorizontalAlignment="Left" TextChanged="BookTitle_TextChanged" ></TextBox>
